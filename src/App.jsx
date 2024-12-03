@@ -3,6 +3,7 @@ import Contact1 from './Componenets/Contact1/Contact1'
 import Contact2 from './Componenets/Contact2/Contact2'
 import Contact3 from './Componenets/Contact3/Contact3'
 import Contact4 from './Componenets/Contact4/Contact4'
+import Contact5 from './Componenets/Contact5/Contact5'
 
 
 const App = () => {
@@ -12,7 +13,7 @@ const App = () => {
       <Contact2 />
       <Contact3 />  
       <Contact4 />
-
+      <Contact5 />
     </div>
   )
 }
