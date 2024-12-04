@@ -12,12 +12,12 @@ import Contact8 from './Componenets/Contact8/Contact8'
 const App = () => {
   return (
     <div>
-      <Contact1 />
       <Contact2 />
       <Contact3 />  
       <Contact4 />
       <Contact5 />
       <Contact6 />
+      <Contact1 />
       <Contact7 />
       <Contact8 />
     </div>

@@ -158,15 +158,7 @@ const Contact3 = () => {
           </div>
         </div>
       </section>
-      <p className="leading-relaxed text-xl text-gray-900 mt-8">
-        We use VeilMail.io to{" "}
-        <a
-          className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
-          href="https://veilmail.io"
-        >
-          hide email address from spammers
-        </a>
-      </p>
+      
     </form>
   );
 };
