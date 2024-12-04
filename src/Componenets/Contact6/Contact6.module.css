@@ -1,0 +1,133 @@
+:root {
+    --primary: #4f46e5;
+    --primary-dark: #4338ca;
+    --gray: #6b7280;
+    --error: #ef4444;
+    --success: #22c55e;
+}
+
+
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+    
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: #111827;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.Labels-Text {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: all 0.15s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.error-message {
+    color: var(--error);
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    display: none;
+}
+
+.validation-icon {
+    position: absolute;
+    right: 1rem;
+    top: 2.5rem;
+    display: none;
+}
+
+.validation-icon.success {
+    color: var(--success);
+    display: block;
+}
+
+.validation-icon.error {
+    color: var(--error);
+    display: block;
+}
+
+input.success, textarea.success {
+    border-color: var(--success);
+}
+
+input.error, textarea.error {
+    border-color: var(--error);
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: start;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.checkbox-group input[type="checkbox"] {
+    width: auto;
+    margin-top: 0.25rem;
+}
+
+.checkbox-group label {
+    font-size: 0.875rem;
+    color: var(--gray);
+}
+
+button {
+    background: var(--primary);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.15s ease;
+}
+
+button:hover {
+    background: var(--primary-dark);
+}
+
+.privacy-notice {
+    font-size: 0.875rem;
+    color: var(--gray);
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.success-message {
+    display: none;
+    background: #dcfce7;
+    color: #166534;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
