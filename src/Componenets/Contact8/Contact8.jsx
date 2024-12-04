@@ -57,6 +57,7 @@ function Contact8() {
               <label htmlFor="message-textarea">Message</label>
               <textarea
                 id="message-textarea"
+                
                 placeholder="Write us a message"
               />
             </div>
